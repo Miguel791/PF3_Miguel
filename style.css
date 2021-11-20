@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(190, 30, 30);
+    font-size: normal 10pt arial;
+    position: absolute;
+    top: 50%; /* distancia em relacao ao topo*/
+    left: 50%;
+    transform: translate(-50%,-65%); 
+}
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+section{
+    background-color: rgb(146, 132, 55);
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(rgb(224, 222, 222), green, blue, alpha);
+    text-align: center;
+
+}
+
+
+
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(18, 89, 221);
+    margin: 2px;
+    background-color: rgb(45, 45, 151);
+    border-radius:3px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
